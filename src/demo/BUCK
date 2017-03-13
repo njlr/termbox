@@ -1,0 +1,29 @@
+cxx_binary(
+  name = 'keyboard',
+  srcs = glob([
+    'keyboard.c',
+  ]),
+  deps = [
+    '//:termbox',
+  ],
+)
+
+cxx_binary(
+  name = 'output',
+  srcs = glob([
+    'output.c',
+  ]),
+  deps = [
+    '//:termbox',
+  ],
+)
+
+cxx_binary(
+  name = 'paint',
+  srcs = glob([
+    'paint.c',
+  ]),
+  deps = [
+    '//:termbox',
+  ],
+)

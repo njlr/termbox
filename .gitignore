@@ -3,3 +3,8 @@ build
 .lock*
 src/python/termboxconfig.pyx
 src/python/termboxmodule.c
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
